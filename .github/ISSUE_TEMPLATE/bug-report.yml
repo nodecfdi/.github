@@ -1,0 +1,34 @@
+name: "\U0001F41E Reporte de Bug"
+description: Crea un informe para ayudarnos a mejorar NodeCfdi
+labels: ["triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Por favor lea atentamente el documento de contribución antes de crear un reporte de bug
+        👉 https://github.com/nodecfdi/.github/blob/main/docs/CONTRIBUTING.md
+
+  - type: input
+    id: package-version
+    attributes:
+      label: Package version
+      description: Puede ejecutar `pnpm ls <pkg-name>` para verificar la versión del paquete
+      placeholder: Package version
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe el bug
+      description: Una descripción clara y concisa de cuál es el bug. Si desea hacer una pregunta, utilice el [foro de discusión](https://discord.gg/AsqX8fkW2k).
+      placeholder: Descripción de bug
+    validations:
+      required: true
+  - type: input
+    id: reproduction-repo
+    attributes:
+      label: Repo de reproducción
+      description: Enlace al repositorio de reproducción que podemos usar para reproducir el problema.
+      placeholder: Opcional, pero recomendado
+    validations:
+      required: false
