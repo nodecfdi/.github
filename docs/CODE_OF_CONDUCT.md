@@ -70,8 +70,8 @@ Los administradores de la comunidad seguirán estas Guías de Impacto en la Comu
 
 ## Atribución
 
-Este Código de Conducta es una adaptación del [Contributor Covenant](https://www.contributor-covenant.org), versión 2.0, disponible en <https://www.contributor-covenant.org/es/version/2/0/code_of_conduct.html>.
+Este Código de Conducta es una adaptación del [Contributor Covenant](https://www.contributor-covenant.org), versión 2.0, disponible en https://www.contributor-covenant.org/es/version/2/0/code_of_conduct.html.
 
 Las Guías de Impacto en la Comunidad están inspiradas en la [escalera de aplicación del código de conducta de Mozilla](https://github.com/mozilla/diversity).
 
-Para respuestas a las preguntas frecuentes de este código de conducta, consulta las FAQ en <https://www.contributor-covenant.org/faq>. Hay traducciones disponibles en <https://www.contributor-covenant.org/translations>.
+Para respuestas a las preguntas frecuentes de este código de conducta, consulta las FAQ en https://www.contributor-covenant.org/faq. Hay traducciones disponibles en https://www.contributor-covenant.org/translations.

@@ -7,7 +7,7 @@ Antes de contribuir en cualquiera de nuestros repos e ingresar en la comunidad, 
 
 Puedes encontrar ayuda y comentar asuntos relacionados con CFDI y en general de la organización en este lugar:
 
-* Comunidad Discord: <https://discord.gg/AsqX8fkW2k>
+* Comunidad Discord: https://discord.gg/AsqX8fkW2k
 
 ## Reportar Bugs
 
