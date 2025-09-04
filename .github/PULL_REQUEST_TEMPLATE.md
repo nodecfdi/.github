@@ -15,6 +15,8 @@ Por favor lea atentamente el documento de contribución antes de crear un pull r
 - [ ] 👌 Mejora (mejorar una funcionalidad existente como el rendimiento)
 - [ ] ✨ Nueva característica (un cambio continuo que agrega funcionalidad)
 - [ ] ⚠️ Breaking change (corrección o característica que haría que la funcionalidad existente cambiara)
+- [ ] 📝 Documentación (cambios en la documentación)
+- [ ] 🔨 Otro cambio (cambios que no se encuentran en ninguno de los anteriores)
 
 ### 📚 Descripción
 

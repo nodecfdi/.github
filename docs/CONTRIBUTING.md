@@ -78,7 +78,6 @@ A continuación la lista de las herramientas que usamos.
 |-------|--------|
 | TypeScript | Todos los repositorios están creados en TypeScript. El JavaScript compilado y las definiciones de tipo se publican en npm. |
 | ESLint | ESLint nos ayuda a aplicar un estilo de codificación consistente en todos los repositorios con múltiples contribuyentes. |
-| Prettier | Usamos prettier para formatear el código base y conseguir unsa salida visual consistente. Si no sabe por qué utilizamos Eslint y Prettier, puede leer el siguiente documento [Prettier vs. Linters][prettierEslint] en el sitio web de prettier. |
 | EditorConfig | El archivo `.editorconfig` en la raíz de cada proyecto configura su editor de código para usar un conjunto de reglas para la gestión de sangrías y espacios en blanco. Nuevamente, Prettier se usa para publicar el formato de su código y Editorconfig se usa para configurar el editor por adelantado. |
 | Conventional Changelog | Todos los commits en todos los repositorios utilizan [commitlint][] para aplicar mensajes de commit consistentes. |
 | Husky | Usamos [husky][] para hacer cumplir las convenciones de commits al enviar el código. Husky es un sistema git hooks escrito en Node. |
@@ -93,11 +92,11 @@ A continuación la lista de las herramientas que usamos.
 | `pnpm test:coverage` | Ejecuta los tests del proyecto tal cual los ejecuta `test:run`, pero adicional genera un reporte de cobertura de código.  |
 | `pnpm lint` | Aplica lint en el código usando ESlint |
 | `pnpm lint:check` | Verifica que el código cumpla la suite de reglas de ESlint |
-| `pnpm format` | Formatea el codígo base usando Prettier |
-| `pnpm format:check` | Verifica que el código cumpla el estilo de formato Prettier |
+| `pnpm typecheck` | Verifica que el código cumpla la validación de tipos usando tsc |
+| `pnpm tool:code` | Ejecuta todas las herramientas de verificación de código |
+| `pnpm tool:build` | Ejecuta todas las herramientas de verificación de código y test |
 
 [nodeCfdi]: https://github.com/nodecfdi/
-[prettierEslint]: https://prettier.io/docs/en/comparison.html
 [commitlint]: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
 [husky]: https://typicode.github.io/husky/#/
 [vitest]: https://vitest.dev/
