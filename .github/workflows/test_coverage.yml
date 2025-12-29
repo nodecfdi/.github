@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
-      
+        uses: actions/checkout@v6
+
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -20,7 +20,7 @@ jobs:
           CI: true
 
       - name: Store code coverage
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: code-coverage
           path: coverage

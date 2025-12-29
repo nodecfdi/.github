@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: ["16", "18", "20", "22", "24"]
+        node: ["20", "22", "24"]
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -17,7 +17,7 @@ jobs:
           run_install: false
 
       - name: Install Node.js
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
           package-manager-cache: false
